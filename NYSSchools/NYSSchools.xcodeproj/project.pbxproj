@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		310BD8C3294A59BA006E18D0 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310BD8C2294A59BA006E18D0 /* Padding.swift */; };
 		317B96E52947B667007DAB11 /* ErrorAlertSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317B96E42947B667007DAB11 /* ErrorAlertSheet.swift */; };
 		317B96E82947EB4B007DAB11 /* SATScoresService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317B96E72947EB4B007DAB11 /* SATScoresService.swift */; };
 		317B96EB2947EB63007DAB11 /* SATScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317B96EA2947EB62007DAB11 /* SATScore.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		310BD8C2294A59BA006E18D0 /* Padding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
 		317B96E42947B667007DAB11 /* ErrorAlertSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlertSheet.swift; sourceTree = "<group>"; };
 		317B96E72947EB4B007DAB11 /* SATScoresService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATScoresService.swift; sourceTree = "<group>"; };
 		317B96EA2947EB62007DAB11 /* SATScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATScore.swift; sourceTree = "<group>"; };
@@ -103,6 +105,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		310BD8BF294A59A7006E18D0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				317B96E32947B65C007DAB11 /* Error */,
+				310BD8C0294A59BA006E18D0 /* ViewExtensions */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		310BD8C0294A59BA006E18D0 /* ViewExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				310BD8C1294A59BA006E18D0 /* Padding */,
+			);
+			path = ViewExtensions;
+			sourceTree = "<group>";
+		};
+		310BD8C1294A59BA006E18D0 /* Padding */ = {
+			isa = PBXGroup;
+			children = (
+				310BD8C2294A59BA006E18D0 /* Padding.swift */,
+			);
+			path = Padding;
+			sourceTree = "<group>";
+		};
 		317B96E32947B65C007DAB11 /* Error */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,11 +190,11 @@
 		31CDE3C6293FEFB8003EDD91 /* NYSSchools */ = {
 			isa = PBXGroup;
 			children = (
+				310BD8BF294A59A7006E18D0 /* Extensions */,
 				31CDE3F729402F63003EDD91 /* Networking */,
 				31CDE3FD2940F99F003EDD91 /* Services */,
 				31CDE3F829402F99003EDD91 /* List */,
 				31CDE40029411674003EDD91 /* Detail */,
-				317B96E32947B65C007DAB11 /* Error */,
 				31CDE3C7293FEFB8003EDD91 /* NYSSchoolsApp.swift */,
 				31CDE3CB293FEFB9003EDD91 /* Assets.xcassets */,
 				31CDE3CD293FEFB9003EDD91 /* Preview Content */,
@@ -371,6 +398,7 @@
 			files = (
 				317B96E82947EB4B007DAB11 /* SATScoresService.swift in Sources */,
 				317B96F929484E8C007DAB11 /* SchoolInfoCell.swift in Sources */,
+				310BD8C3294A59BA006E18D0 /* Padding.swift in Sources */,
 				317B96EF2947F2C5007DAB11 /* SchoolDetailViewModel.swift in Sources */,
 				317B96F12947FEDA007DAB11 /* SATScoreView.swift in Sources */,
 				31CDE3FF2940F9AD003EDD91 /* SchoolsService.swift in Sources */,

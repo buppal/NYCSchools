@@ -23,6 +23,6 @@ struct SchoolInfoCell: View {
             Text(viewModel.subtitle)
                 .font(.subheadline)
         }
-        .padding(.vertical, 8.0)
+        .padding(.vertical, .small)
     }
 }

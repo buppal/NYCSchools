@@ -25,7 +25,7 @@ struct SchoolDetailView: View {
             }
         }
         .navigationTitle(viewModel.school.schoolName)
-        .padding(.all, 16.0)
+        .padding(.all, .medium)
         .errorAlert(error: $viewModel.fetchError)
         .onAppear {
             viewModel.fetchSATScores()
