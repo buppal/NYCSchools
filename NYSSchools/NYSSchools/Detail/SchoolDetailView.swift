@@ -24,7 +24,7 @@ struct SchoolDetailView: View {
                 }
             }
         }
-        .navigationTitle(viewModel.school.schoolName)
+        .navigationTitle(viewModel.schoolName)
         .padding(.all, .medium)
         .errorAlert(error: $viewModel.fetchError)
         .onAppear {

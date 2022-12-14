@@ -11,8 +11,9 @@ import Foundation
 class SchoolDetailViewModel: ObservableObject {
     private let satScoreService: SATScoresService
     private var cancellables: [AnyCancellable] = []
-    let school: School
+    private let school: School
     
+    @Published var schoolName: String
     @Published var fetchError: Error?
     @Published var satScoreViewModel: SATScoreViewModel?
     @Published var schoolInfoCellViewModels: [SchoolInfoCellViewModel] = []
@@ -22,6 +23,7 @@ class SchoolDetailViewModel: ObservableObject {
         satScoreService: SATScoresService = SATScoresServiceImpl()
     ) {
         self.school = school
+        schoolName = school.schoolName
         self.satScoreService = satScoreService
 
         if let overview = school.overview {
