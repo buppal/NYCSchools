@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		310BD8C3294A59BA006E18D0 /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310BD8C2294A59BA006E18D0 /* Padding.swift */; };
+		3117301A295CBFAE007B097E /* SchoolsWebServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31173019295CBFAE007B097E /* SchoolsWebServiceMock.swift */; };
+		3117301D295CC07A007B097E /* ListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117301C295CC07A007B097E /* ListViewModelTests.swift */; };
+		31173020295CD97A007B097E /* NYSSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117301E295CD979007B097E /* NYSSchoolsUITests.swift */; };
+		31173021295CD97A007B097E /* NYSSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3117301F295CD97A007B097E /* NYSSchoolsUITestsLaunchTests.swift */; };
+		31173023295D06BC007B097E /* TestPublisherHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31173022295D06BC007B097E /* TestPublisherHelper.swift */; };
 		317B96E52947B667007DAB11 /* ErrorAlertSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317B96E42947B667007DAB11 /* ErrorAlertSheet.swift */; };
 		317B96E82947EB4B007DAB11 /* SATScoresService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317B96E72947EB4B007DAB11 /* SATScoresService.swift */; };
 		317B96EB2947EB63007DAB11 /* SATScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317B96EA2947EB62007DAB11 /* SATScore.swift */; };
@@ -22,9 +27,6 @@
 		31CDE3C8293FEFB8003EDD91 /* NYSSchoolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CDE3C7293FEFB8003EDD91 /* NYSSchoolsApp.swift */; };
 		31CDE3CC293FEFB9003EDD91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31CDE3CB293FEFB9003EDD91 /* Assets.xcassets */; };
 		31CDE3CF293FEFB9003EDD91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31CDE3CE293FEFB9003EDD91 /* Preview Assets.xcassets */; };
-		31CDE3D9293FEFB9003EDD91 /* NYSSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CDE3D8293FEFB9003EDD91 /* NYSSchoolsTests.swift */; };
-		31CDE3E3293FEFB9003EDD91 /* NYSSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CDE3E2293FEFB9003EDD91 /* NYSSchoolsUITests.swift */; };
-		31CDE3E5293FEFB9003EDD91 /* NYSSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CDE3E4293FEFB9003EDD91 /* NYSSchoolsUITestsLaunchTests.swift */; };
 		31CDE3F2293FEFD2003EDD91 /* NetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CDE3F1293FEFD2003EDD91 /* NetworkTask.swift */; };
 		31CDE3F4293FF791003EDD91 /* NetworkTaskError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CDE3F3293FF791003EDD91 /* NetworkTaskError.swift */; };
 		31CDE3F629402BCD003EDD91 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CDE3F529402BCD003EDD91 /* School.swift */; };
@@ -52,6 +54,11 @@
 
 /* Begin PBXFileReference section */
 		310BD8C2294A59BA006E18D0 /* Padding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
+		31173019295CBFAE007B097E /* SchoolsWebServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsWebServiceMock.swift; sourceTree = "<group>"; };
+		3117301C295CC07A007B097E /* ListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelTests.swift; sourceTree = "<group>"; };
+		3117301E295CD979007B097E /* NYSSchoolsUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYSSchoolsUITests.swift; sourceTree = "<group>"; };
+		3117301F295CD97A007B097E /* NYSSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NYSSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31173022295D06BC007B097E /* TestPublisherHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPublisherHelper.swift; sourceTree = "<group>"; };
 		317B96E42947B667007DAB11 /* ErrorAlertSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlertSheet.swift; sourceTree = "<group>"; };
 		317B96E72947EB4B007DAB11 /* SATScoresService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATScoresService.swift; sourceTree = "<group>"; };
 		317B96EA2947EB62007DAB11 /* SATScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATScore.swift; sourceTree = "<group>"; };
@@ -68,10 +75,7 @@
 		31CDE3CB293FEFB9003EDD91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31CDE3CE293FEFB9003EDD91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		31CDE3D4293FEFB9003EDD91 /* NYSSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYSSchoolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		31CDE3D8293FEFB9003EDD91 /* NYSSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYSSchoolsTests.swift; sourceTree = "<group>"; };
 		31CDE3DE293FEFB9003EDD91 /* NYSSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYSSchoolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		31CDE3E2293FEFB9003EDD91 /* NYSSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYSSchoolsUITests.swift; sourceTree = "<group>"; };
-		31CDE3E4293FEFB9003EDD91 /* NYSSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYSSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		31CDE3F1293FEFD2003EDD91 /* NetworkTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTask.swift; sourceTree = "<group>"; };
 		31CDE3F3293FF791003EDD91 /* NetworkTaskError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTaskError.swift; sourceTree = "<group>"; };
 		31CDE3F529402BCD003EDD91 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
@@ -128,6 +132,22 @@
 				310BD8C2294A59BA006E18D0 /* Padding.swift */,
 			);
 			path = Padding;
+			sourceTree = "<group>";
+		};
+		31173018295CBE5D007B097E /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				31173019295CBFAE007B097E /* SchoolsWebServiceMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		3117301B295CC064007B097E /* List */ = {
+			isa = PBXGroup;
+			children = (
+				3117301C295CC07A007B097E /* ListViewModelTests.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 		317B96E32947B65C007DAB11 /* Error */ = {
@@ -213,7 +233,9 @@
 		31CDE3D7293FEFB9003EDD91 /* NYSSchoolsTests */ = {
 			isa = PBXGroup;
 			children = (
-				31CDE3D8293FEFB9003EDD91 /* NYSSchoolsTests.swift */,
+				3117301B295CC064007B097E /* List */,
+				31173018295CBE5D007B097E /* Mocks */,
+				31173022295D06BC007B097E /* TestPublisherHelper.swift */,
 			);
 			path = NYSSchoolsTests;
 			sourceTree = "<group>";
@@ -221,8 +243,8 @@
 		31CDE3E1293FEFB9003EDD91 /* NYSSchoolsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				31CDE3E2293FEFB9003EDD91 /* NYSSchoolsUITests.swift */,
-				31CDE3E4293FEFB9003EDD91 /* NYSSchoolsUITestsLaunchTests.swift */,
+				3117301E295CD979007B097E /* NYSSchoolsUITests.swift */,
+				3117301F295CD97A007B097E /* NYSSchoolsUITestsLaunchTests.swift */,
 			);
 			path = NYSSchoolsUITests;
 			sourceTree = "<group>";
@@ -341,6 +363,7 @@
 					};
 					31CDE3DD293FEFB9003EDD91 = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 						TestTargetID = 31CDE3C3293FEFB8003EDD91;
 					};
 				};
@@ -422,7 +445,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31CDE3D9293FEFB9003EDD91 /* NYSSchoolsTests.swift in Sources */,
+				3117301D295CC07A007B097E /* ListViewModelTests.swift in Sources */,
+				31173023295D06BC007B097E /* TestPublisherHelper.swift in Sources */,
+				3117301A295CBFAE007B097E /* SchoolsWebServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +455,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31CDE3E3293FEFB9003EDD91 /* NYSSchoolsUITests.swift in Sources */,
-				31CDE3E5293FEFB9003EDD91 /* NYSSchoolsUITestsLaunchTests.swift in Sources */,
+				31173020295CD97A007B097E /* NYSSchoolsUITests.swift in Sources */,
+				31173021295CD97A007B097E /* NYSSchoolsUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,13 +690,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bani.NYSSchoolsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = NYSSchools;
@@ -682,9 +714,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bani.NYSSchoolsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

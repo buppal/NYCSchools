@@ -7,10 +7,8 @@
 
 import Foundation
 
-struct School: Decodable, Identifiable, Hashable {
-    
-    let id = UUID()
-    
+struct School: Decodable, Hashable {
+        
     let schoolName: String
     let dbn: String
     let overview: String?
